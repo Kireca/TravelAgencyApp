@@ -1,12 +1,11 @@
-package kirecaproject.models;
+package kirecaproject.models.entities;
 
 
 import jakarta.persistence.*;
+import kirecaproject.models.entities.BaseEntity;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
-import java.util.Set;
 
 @Getter
 @Setter
